@@ -1226,7 +1226,6 @@ namespace TShockAPI
 				}
 			}
 
-			Bouncer.OnSecondUpdate();
 			Utils.SetConsoleTitle(false);
 		}
 
