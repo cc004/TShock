@@ -35,4 +35,5 @@ namespace TShockAPI
 {
 	internal sealed class Bouncer
 	{
+	}
 }
