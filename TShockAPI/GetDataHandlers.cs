@@ -3677,12 +3677,6 @@ namespace TShockAPI
 					return true;
 				}
 			}
-			else if (!args.Player.HasPermission($"tshock.specialeffects.{type}"))
-			{
-				args.Player.SendErrorMessage(GetString("You do not have permission to use this effect."));
-				TShock.Log.ConsoleError(GetString("Unrecognized special effect (Packet 51). Please report this to the TShock developers."));
-				return true;
-			}
 
 			return false;
 		}
